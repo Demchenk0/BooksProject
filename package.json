@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Demchenk0/BooksProject",
+  "homepage": "https://demchenk0.github.io/BooksProject/",
   "dependencies": {
     "@date-io/dayjs": "^2.16.0",
     "@emotion/styled": "^11.10.4",
