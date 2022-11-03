@@ -10,7 +10,7 @@ import { ReviewContextProvider } from 'components/ReviewContext/ReviewContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	// <React.StrictMode>
-	<BrowserRouter basename="/BooksProject">
+	<BrowserRouter>
 		<Provider store={store}>
 			<PersistGate loading={null} persistor={persistor}>
 				<ReviewContextProvider>
@@ -21,3 +21,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 	</BrowserRouter>
 	//  </React.StrictMode>
 );
+
+//  basename = '/BooksProject';
