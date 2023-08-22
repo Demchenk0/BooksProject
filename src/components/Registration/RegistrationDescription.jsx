@@ -5,8 +5,8 @@ import {
 	RegistrationDescriptionList,
 	RegistrationDescriptionItem,
 	RegistrationDescriptionContainer,
-	RegistrationDescriptionButton,
-	RegistrationDescriptionContainerButton,
+	// RegistrationDescriptionButton,
+	// RegistrationDescriptionContainerButton,
 	RegistrationDescriptionDivList,
 } from 'ui/AuthPage';
 import { ReactComponent as Arrow } from '../../ui/AuthPage/Image/Arrow.svg';
@@ -76,12 +76,12 @@ const RegistrationDescription = () => {
 					</RegistrationDescriptionItem>
 				</RegistrationDescriptionList>
 			</RegistrationDescriptionDivList>
-			<RegistrationDescriptionContainerButton>
+			{/* <RegistrationDescriptionContainerButton>
 				<RegistrationDescriptionButton>Увійти</RegistrationDescriptionButton>
 				<RegistrationDescriptionButton>
 					Реєстрація
 				</RegistrationDescriptionButton>
-			</RegistrationDescriptionContainerButton>
+			</RegistrationDescriptionContainerButton> */}
 		</RegistrationDescriptionContainer>
 	);
 };

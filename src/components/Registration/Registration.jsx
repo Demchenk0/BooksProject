@@ -10,7 +10,7 @@ import {
 	LoginSubContainer,
 	LoginButton,
 	RegistrationContainerLink,
-	LoginButtonGoogle,
+	// LoginButtonGoogle,
 	LoginLink,
 	RegistrationTextLink,
 } from 'ui/AuthPage';
@@ -81,10 +81,10 @@ const Registration = () => {
 		<>
 			<LoginContainerBg>
 				<LoginContainer>
-					<LoginButtonGoogle type="button" onClick={toogleModal}>
+					{/* <LoginButtonGoogle type="button" onClick={toogleModal}>
 						<GoogleIcon style={{ marginRight: '17' }} />
 						Google
-					</LoginButtonGoogle>
+					</LoginButtonGoogle> */}
 
 					{isModal && (
 						<Modal toogleModal={toogleModal}>

@@ -11,7 +11,7 @@ import {
 	LoginSubContainer,
 	LoginButton,
 	LoginLink,
-	LoginButtonGoogle,
+	// LoginButtonGoogle,
 } from 'ui/AuthPage';
 import { ReactComponent as GoogleIcon } from '../../ui/AuthPage/Image/google-icon.svg';
 import Modal from 'components/Modal/Modal';
@@ -58,10 +58,10 @@ const Login = () => {
 				<LoginContainer>
 					{/* <GoogleButton/> */}
 
-					<LoginButtonGoogle type="button" onClick={toogleModal}>
+					{/* <LoginButtonGoogle type="button" onClick={toogleModal}>
 						<GoogleIcon style={{ marginRight: '17' }} />
 						Google
-					</LoginButtonGoogle>
+					</LoginButtonGoogle> */}
 
 					{isModal && (
 						<Modal toogleModal={toogleModal}>
