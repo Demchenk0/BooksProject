@@ -13,11 +13,13 @@ const LoginCitate = () => {
 				<LoginCitateIcon />
 			</span>
 			<LoginCitateText>
-				Книги — это корабли мысли, странствующие по волнам времени и бережно
-				несущие свой драгоценный груз от поколения к поколению.
+				<p>І все на світі треба пережити,</p>
+				<p>бо кожен фініш — це по суті старт.</p>
+				<p>І наперед не треба ворожити,</p>
+				<p>і за минулим плакати не варто...</p>
 			</LoginCitateText>
 			<LoginCitateBorder></LoginCitateBorder>
-			<LoginCitateAutor>Бэкон Ф.</LoginCitateAutor>
+			<LoginCitateAutor>Ліна Костенко</LoginCitateAutor>
 		</LoginCitateContainer>
 	);
 };
